@@ -134,14 +134,13 @@ class MyHashTable:
 
 if __name__ == '__main__':
     hash_table = MyHashTable()
-    hash_table.put(1, "zhangsan")
-    hash_table.put(2, "lisi")
-    hash_table.put(10, "wangwu")
+    hash_table.put('a', 1)
+    hash_table.put('b', 2)
+    hash_table.put('c', 3)
+    hash_table.put('d', 4)
+    hash_table.put('e', 5)
     hash_table.display()
     hash_table.for_each(print)
-    print(hash_table.get(2))
-    hash_table.remove(10)
-    hash_table.display()
 
 
 
