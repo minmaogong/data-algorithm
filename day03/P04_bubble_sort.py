@@ -3,6 +3,8 @@
     比较 n-1 轮
     for i in range(n-1)
     每轮比较 n-1-i 次
+
+    无序区间在前，有序区间在后，相邻两个元素比较，把大的放后面
 """
 
 def bubble_sort(arr):
